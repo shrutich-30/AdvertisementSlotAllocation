@@ -1,2 +1,3 @@
 # AdvertisementSlotAllocation
 C program to allocate advertisement slots using Greedy and DP approaches.
+This program is a Smart Advertisement Slot Allocation System. It schedules ads within a limited broadcast time to maximize total revenue, considering each ad’s duration, profit, and conflict group (ads from the same group cannot run together). It uses a greedy algorithm, prioritizing ads with the highest profit per minute, and ensures the schedule is conflict-free and fits within the total available time. The program also calculates and displays the total broadcast time used and total revenue generated.
